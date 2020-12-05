@@ -1,0 +1,798 @@
+[
+    {
+        "timestamp": "2019/11/24 3:54:04 p.\u00a0m. GMT-3",
+        "materias": [
+            "An\u00e1lisis y Sintesis Automatico de Programas",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Azar y Aut\u00f3matas",
+            "Ciencia de Datos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 3:54:04 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitecturas de Aplicaciones Web",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Programaci\u00f3n de Sistemas Operativos",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 3:54:06 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitecturas de Aplicaciones Web",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Programaci\u00f3n de Sistemas Operativos",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 3:54:37 p.\u00a0m. GMT-3",
+        "materias": []
+    },
+    {
+        "timestamp": "2019/11/24 3:54:51 p.\u00a0m. GMT-3",
+        "materias": [
+            "Computaci\u00f3n, Ciencia y Sociedad en la Argentina",
+            "Programaci\u00f3n de Sistemas Operativos",
+            "Redes, Sociedad y Econom\u00eda",
+            "Seminario Avanzado de An\u00e1lisis de Programas"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 3:55:28 p.\u00a0m. GMT-3",
+        "materias": [
+            "Ciencia de Datos",
+            "Computaci\u00f3n, Ciencia y Sociedad en la Argentina",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Redes, Sociedad y Econom\u00eda"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 3:56:59 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Ciencia de Datos",
+            "Computaci\u00f3n, Ciencia y Sociedad en la Argentina",
+            "Redes, Sociedad y Econom\u00eda"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 3:57:00 p.\u00a0m. GMT-3",
+        "materias": [
+            "Metaheur\u00edsticas",
+            "Problemas, Algoritmos y Programaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 3:58:11 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Ciencia de Datos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:01:10 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Problemas, Algoritmos y Programaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:02:08 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Investigaci\u00f3n Operativa",
+            "Seminario Avanzado de Programaci\u00f3n Lineal Entera"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:03:14 p.\u00a0m. GMT-3",
+        "materias": [
+            "Azar y Aut\u00f3matas",
+            "Introducci\u00f3n a la Rob\u00f3tica M\u00f3vil",
+            "Seminario sobre Algoritmos de An\u00e1lisis de Secuencias Biol\u00f3gicas",
+            "Visi\u00f3n en Rob\u00f3tica"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:05:04 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Problemas, Algoritmos y Programaci\u00f3n",
+            "Redes Neuronales",
+            "Visi\u00f3n por Computadora"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:08:27 p.\u00a0m. GMT-3",
+        "materias": [
+            "Computaci\u00f3n Gr\u00e1fica",
+            "Programaci\u00f3n Orientada a Objetos/Dise\u00f1o Avanzado de Objetos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:12:49 p.\u00a0m. GMT-3",
+        "materias": [
+            "Programaci\u00f3n de Sistemas Operativos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:16:32 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Arquitecturas de Aplicaciones Web",
+            "Introducci\u00f3n a la Rob\u00f3tica M\u00f3vil",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:19:46 p.\u00a0m. GMT-3",
+        "materias": [
+            "Ciencia de Datos",
+            "Generaci\u00f3n Autom\u00e1tica de Casos de Tests",
+            "Programaci\u00f3n Concurrente",
+            "Sistemas Distribuidos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:24:14 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitecturas de Aplicaciones Web",
+            "Ciencia de Datos",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Reescritura, Calculo Lambda y Sustituciones Expl\u00edcitas"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:28:37 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Introducci\u00f3n a la Rob\u00f3tica M\u00f3vil",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Programaci\u00f3n Concurrente"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:29:03 p.\u00a0m. GMT-3",
+        "materias": [
+            "Azar y Aut\u00f3matas",
+            "Reescritura, Calculo Lambda y Sustituciones Expl\u00edcitas",
+            "Simulaci\u00f3n de Eventos Discretos",
+            "Teor\u00eda de la computabilidad"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:30:33 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Computaci\u00f3n Gr\u00e1fica",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:30:47 p.\u00a0m. GMT-3",
+        "materias": [
+            "Introducci\u00f3n a la Rob\u00f3tica M\u00f3vil",
+            "Programaci\u00f3n Orientada a Objetos/Dise\u00f1o Avanzado de Objetos",
+            "Redes, Sociedad y Econom\u00eda",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:31:22 p.\u00a0m. GMT-3",
+        "materias": [
+            "Generaci\u00f3n Autom\u00e1tica de Casos de Tests",
+            "Programaci\u00f3n Concurrente",
+            "Programaci\u00f3n de Sistemas Operativos",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:33:40 p.\u00a0m. GMT-3",
+        "materias": [
+            "Ciencia de Datos",
+            "Computaci\u00f3n Gr\u00e1fica",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:41:36 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Redes Neuronales",
+            "Visi\u00f3n por Computadora"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:43:35 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:45:00 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Computaci\u00f3n Gr\u00e1fica",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Seminario sobre Algoritmos de An\u00e1lisis de Secuencias Biol\u00f3gicas"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:53:16 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Arquitecturas de Aplicaciones Web",
+            "Ciencia de Datos",
+            "Introducci\u00f3n a la Rob\u00f3tica M\u00f3vil"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:54:34 p.\u00a0m. GMT-3",
+        "materias": [
+            "Ciencia de Datos",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Redes Neuronales"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 4:56:33 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitecturas de Aplicaciones Web",
+            "Azar y Aut\u00f3matas",
+            "Programaci\u00f3n Orientada a Objetos/Dise\u00f1o Avanzado de Objetos",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:11:06 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Problemas, Algoritmos y Programaci\u00f3n",
+            "Seminario sobre Algoritmos de An\u00e1lisis de Secuencias Biol\u00f3gicas"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:16:14 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "An\u00e1lisis y Sintesis Automatico de Programas",
+            "Fundamentos de Especificaci\u00f3n de Software",
+            "Investigaci\u00f3n Operativa"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:18:35 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Introducci\u00f3n al Procesamiento Digital de Im\u00e1genes",
+            "Investigaci\u00f3n Operativa"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:23:36 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Ciencia de Datos",
+            "Visi\u00f3n en Rob\u00f3tica",
+            "Visi\u00f3n por Computadora"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:27:08 p.\u00a0m. GMT-3",
+        "materias": [
+            "Generaci\u00f3n Autom\u00e1tica de Casos de Tests",
+            "Introducci\u00f3n al Procesamiento Digital de Im\u00e1genes",
+            "Programaci\u00f3n Concurrente",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:28:29 p.\u00a0m. GMT-3",
+        "materias": [
+            "Computaci\u00f3n Gr\u00e1fica"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:32:53 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Investigaci\u00f3n Operativa",
+            "Problemas, Algoritmos y Programaci\u00f3n",
+            "Seminario Avanzado de Programaci\u00f3n Lineal Entera"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:39:40 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Generaci\u00f3n Autom\u00e1tica de Casos de Tests",
+            "Redes Neuronales"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:39:51 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Ciencia de Datos",
+            "Problemas, Algoritmos y Programaci\u00f3n",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:39:56 p.\u00a0m. GMT-3",
+        "materias": [
+            "Teor\u00eda de la computabilidad"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:48:41 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Computaci\u00f3n M\u00f3vil",
+            "Redes Neuronales"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:55:49 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitecturas de Aplicaciones Web",
+            "Ciencia de Datos",
+            "Computaci\u00f3n M\u00f3vil",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 5:56:24 p.\u00a0m. GMT-3",
+        "materias": [
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 6:06:03 p.\u00a0m. GMT-3",
+        "materias": [
+            "Introducci\u00f3n a la Rob\u00f3tica M\u00f3vil",
+            "Programaci\u00f3n de Sistemas Operativos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 6:23:04 p.\u00a0m. GMT-3",
+        "materias": [
+            "Programaci\u00f3n Concurrente",
+            "Sistemas Complejos",
+            "Sistemas Distribuidos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 6:36:25 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Azar y Aut\u00f3matas",
+            "Seguridad de la Informaci\u00f3n",
+            "Teor\u00eda de la computabilidad"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 6:58:22 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Problemas, Algoritmos y Programaci\u00f3n",
+            "Redes Neuronales"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 7:01:49 p.\u00a0m. GMT-3",
+        "materias": [
+            "Computaci\u00f3n Gr\u00e1fica",
+            "Introducci\u00f3n a la Rob\u00f3tica M\u00f3vil",
+            "Visi\u00f3n en Rob\u00f3tica"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 7:39:17 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Problemas, Algoritmos y Programaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 8:11:08 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Ciencia de Datos",
+            "Redes Neuronales"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 8:11:10 p.\u00a0m. GMT-3",
+        "materias": [
+            "Introducci\u00f3n al An\u00e1lisis Formal de Normas Legales",
+            "Redes Neuronales",
+            "Redes, Sociedad y Econom\u00eda",
+            "Teor\u00eda de la computabilidad"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 8:48:58 p.\u00a0m. GMT-3",
+        "materias": [
+            "Reconocimiento de patrones",
+            "Redes Neuronales",
+            "Seguridad de la Informaci\u00f3n",
+            "Sistemas Distribuidos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 9:00:27 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Redes Neuronales"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 9:03:21 p.\u00a0m. GMT-3",
+        "materias": [
+            "Ciencia de Datos",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Programaci\u00f3n Orientada a Objetos/Dise\u00f1o Avanzado de Objetos",
+            "Redes Neuronales"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 9:08:23 p.\u00a0m. GMT-3",
+        "materias": [
+            "Programaci\u00f3n Concurrente",
+            "Programaci\u00f3n de Sistemas Operativos",
+            "Programaci\u00f3n Orientada a Objetos/Dise\u00f1o Avanzado de Objetos",
+            "Sistemas Distribuidos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 9:14:20 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitectura y Comunicaci\u00f3n de Datos",
+            "Introducci\u00f3n al Procesamiento Digital de Im\u00e1genes",
+            "Programaci\u00f3n de Sistemas Operativos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 9:24:06 p.\u00a0m. GMT-3",
+        "materias": [
+            "Ciencia de Datos",
+            "Computaci\u00f3n M\u00f3vil",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 9:27:04 p.\u00a0m. GMT-3",
+        "materias": [
+            "FPGA",
+            "Programaci\u00f3n Concurrente",
+            "Programaci\u00f3n de Sistemas Operativos",
+            "Sistemas Distribuidos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 10:13:25 p.\u00a0m. GMT-3",
+        "materias": [
+            "Ciencia de Datos",
+            "Inferencia Bayesiana",
+            "Seminario Avanzado de Programaci\u00f3n Lineal Entera"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 11:40:21 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Investigaci\u00f3n Operativa",
+            "Metaheur\u00edsticas",
+            "Visi\u00f3n por Computadora"
+        ]
+    },
+    {
+        "timestamp": "2019/11/24 11:56:34 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Arquitecturas de Aplicaciones Web",
+            "Ciencia de Datos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 12:25:26 a.\u00a0m. GMT-3",
+        "materias": [
+            "Computaci\u00f3n Gr\u00e1fica",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Problemas, Algoritmos y Programaci\u00f3n",
+            "Visi\u00f3n por Computadora"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 12:46:56 a.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Ciencia de Datos",
+            "Redes Neuronales",
+            "Visi\u00f3n en Rob\u00f3tica"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 4:04:55 a.\u00a0m. GMT-3",
+        "materias": [
+            "Azar y Aut\u00f3matas",
+            "Teor\u00eda de la computabilidad"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 10:05:59 a.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Aprendizaje Autom\u00e1tico",
+            "Arquitecturas de Aplicaciones Web",
+            "Metaheur\u00edsticas"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 11:45:35 a.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Redes Neuronales"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 12:03:52 p.\u00a0m. GMT-3",
+        "materias": [
+            "Azar y Aut\u00f3matas",
+            "Ciencia de Datos",
+            "Investigaci\u00f3n Operativa",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 12:39:08 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Inferencia Bayesiana",
+            "Sistemas Complejos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 1:22:45 p.\u00a0m. GMT-3",
+        "materias": [
+            "Investigaci\u00f3n Operativa",
+            "Reconocimiento de patrones",
+            "Seguridad de la Informaci\u00f3n",
+            "Simulaci\u00f3n de Eventos Discretos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:15:14 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitecturas de Aplicaciones Web",
+            "Introducci\u00f3n al An\u00e1lisis Formal de Normas Legales",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Reconocimiento de patrones"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:16:31 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Investigaci\u00f3n Operativa",
+            "Problemas, Algoritmos y Programaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:20:15 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitecturas de Aplicaciones Web",
+            "Computaci\u00f3n, Ciencia y Sociedad en la Argentina",
+            "Programaci\u00f3n de Sistemas Operativos",
+            "Seminario Avanzado sobre Modelos y Algoritmos para el An\u00e1lisis de Sistemas"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:21:12 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitecturas de Aplicaciones Web",
+            "Ciencia de Datos",
+            "Introducci\u00f3n a la Rob\u00f3tica M\u00f3vil",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:21:21 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitectura y Comunicaci\u00f3n de Datos",
+            "Introducci\u00f3n a la Rob\u00f3tica M\u00f3vil",
+            "Redes Neuronales",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:22:05 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Ciencia de Datos",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:22:36 p.\u00a0m. GMT-3",
+        "materias": [
+            "Ciencia de Datos",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Validaci\u00f3n y Verificaci\u00f3n de Programas",
+            "Visi\u00f3n por Computadora"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:23:20 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:30:00 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Arquitecturas de Aplicaciones Web",
+            "Programaci\u00f3n Orientada a Objetos/Dise\u00f1o Avanzado de Objetos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:36:09 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Problemas, Algoritmos y Programaci\u00f3n",
+            "Redes Neuronales"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 2:57:08 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitecturas de Aplicaciones Web"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 3:13:29 p.\u00a0m. GMT-3",
+        "materias": [
+            "Computaci\u00f3n Gr\u00e1fica",
+            "Investigaci\u00f3n Operativa",
+            "Reescritura, Calculo Lambda y Sustituciones Expl\u00edcitas",
+            "Validaci\u00f3n y Verificaci\u00f3n de Programas"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 3:29:46 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Arquitecturas de Aplicaciones Web",
+            "Redes Neuronales",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 3:57:37 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Aprendizaje Autom\u00e1tico",
+            "Ciencia de Datos",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 4:13:39 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "An\u00e1lisis y Sintesis Automatico de Programas",
+            "Azar y Aut\u00f3matas",
+            "Problemas, Algoritmos y Programaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 4:14:00 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Seminario sobre Algoritmos de An\u00e1lisis de Secuencias Biol\u00f3gicas"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 4:30:31 p.\u00a0m. GMT-3",
+        "materias": [
+            "Aprendizaje Autom\u00e1tico",
+            "Aprendizaje Profundo/Redes Neuronales Profundas",
+            "Ciencia de Datos",
+            "Generaci\u00f3n Autom\u00e1tica de Casos de Tests"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 5:36:23 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Investigaci\u00f3n Operativa",
+            "Metaheur\u00edsticas",
+            "Seminario Avanzado de Programaci\u00f3n Lineal Entera"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 5:50:08 p.\u00a0m. GMT-3",
+        "materias": [
+            "Fundamentos de Especificaci\u00f3n de Software",
+            "Generaci\u00f3n Autom\u00e1tica de Casos de Tests",
+            "Programaci\u00f3n Concurrente",
+            "Programaci\u00f3n Orientada a Objetos/Dise\u00f1o Avanzado de Objetos"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 6:33:07 p.\u00a0m. GMT-3",
+        "materias": [
+            "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional",
+            "Aprendizaje Autom\u00e1tico",
+            "Problemas, Algoritmos y Programaci\u00f3n",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 8:44:16 p.\u00a0m. GMT-3",
+        "materias": [
+            "Arquitecturas de Aplicaciones Web",
+            "Computaci\u00f3n Gr\u00e1fica",
+            "Computaci\u00f3n M\u00f3vil",
+            "Redes Neuronales"
+        ]
+    },
+    {
+        "timestamp": "2019/11/25 8:48:52 p.\u00a0m. GMT-3",
+        "materias": [
+            "Azar y Aut\u00f3matas",
+            "Computaci\u00f3n Gr\u00e1fica",
+            "Simulaci\u00f3n de Eventos Discretos",
+            "Visi\u00f3n en Rob\u00f3tica"
+        ]
+    },
+    {
+        "timestamp": "2019/11/26 11:31:47 a.\u00a0m. GMT-3",
+        "materias": [
+            "Computaci\u00f3n, Ciencia y Sociedad en la Argentina",
+            "Computaci\u00f3n Gr\u00e1fica",
+            "Programaci\u00f3n de Sistemas Operativos",
+            "Seguridad de la Informaci\u00f3n"
+        ]
+    },
+    {
+        "timestamp": "2019/11/26 2:04:00 p.\u00a0m. GMT-3",
+        "materias": [
+            "Inferencia Bayesiana",
+            "Introducci\u00f3n a la Rob\u00f3tica M\u00f3vil",
+            "Introducci\u00f3n al Procesamiento de Lenguaje Natural",
+            "Redes Neuronales"
+        ]
+    }
+]

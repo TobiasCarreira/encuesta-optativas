@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8">
+        <title>Comparativas</title>
+        <script src="https://d3js.org/d3.v5.js"></script>
+        <script src="resumen-anual.js"></script>
+        <style>
+            body { background-color: #b4d9d0; font-family:courier,arial,helvetica; }
+            h1 {font-size: 42px}
+            h2 {font-size: 22px}
+            .card {
+                background-color: #FFF;
+                margin: 40px 0px;
+                padding: 5px 20px;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+            }
+            .container {
+                max-width: 1080px;
+                margin:auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Resultados de encuesta optativas</h1>
+            <p>
+                Nota: Las materias "Algoritmos y Estructuras de Datos Avanzadas"
+                y "Problemas de Grafos y Tratabilidad Computacional"
+                se encontraban como una única opción de 2018 hasta 2020.
+                En 2021 las separamos en dos.
+                En este gráfico vamos a mostrarlas por separado
+            </p>
+            <div class="card">
+                <h2>Comparativa 2018-2021</h2>
+                <div id="grafico-comparativa" style="position:relative"></div>
+            </div>
+        </div>
+        <script>
+            // set the dimensions and margins of the graph
+            var margin = {top: 40, right: 40, bottom: 40, left: 400},
+                width = 960 - margin.left - margin.right,
+                height = 5000 - margin.top - margin.bottom;
+            let divSelector = '#grafico-comparativa';
+            let svg = d3.select(divSelector)
+              .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+              .append("g")
+                .attr("transform",
+                      "translate(" + margin.left + "," + margin.top + ")");
+
+            function graficoDeBarras(dataPlana) {
+                var xScale = d3.scaleLinear()
+                    .domain([0, 70])
+                    .range([ 0, width]);
+                svg.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(xScale))
+                    .selectAll("text")
+                      .attr("transform", "translate(-10,0)rotate(-45)")
+                      .style("text-anchor", "end");
+
+                var yScale = d3.scaleBand()
+                    .range([ 0, height ])
+                    .domain(dataPlana.map(d => d.materia))
+                    .padding(.1);
+                var innerYScale = d3.scaleBand()
+                    .range([ 0, yScale.bandwidth() ])
+                    .domain([2018, 2019, 2020, 2021]);
+                svg.append("g")
+                    .call(d3.axisLeft(yScale));
+                    
+                let color = d3.scaleOrdinal()
+                    .range(["#648E9E", "#59A8BA", "#1FC2D1", "#4CD9D7"]);
+
+                function getTooltipContent(data) {
+                    return `<b>${data.anio}</b>
+                        <br/>
+                        Votos: ${data.votos}
+                        `
+                }
+                let tooltip = d3.select(document.createElement("div"))
+                    .style("position", "absolute")
+                    .style("pointer-events", "none")
+                    .style("top", 0)
+                    .style("opacity", 0)
+                    .style("background", "white")
+                    .style("border-radius", "5px")
+                    .style("box-shadow", "0 0 10px rgba(0,0,0,.25)")
+                    .style("padding", "10px")
+                    .style("line-height", "1.3")
+                    .style("font", "11px sans-serif");
+                svg.on("mousemove", function(d) {
+                  let [x,y] = d3.mouse(this);
+
+                  tooltip
+                    .style("left", (x+margin.left) + "px")
+                    .style("top", (y+margin.top) + "px")
+                });
+
+                svg
+                    .append("g")
+                    .selectAll("g")
+                    .data(dataPlana)
+                    .join("g")
+                    .attr("transform",
+                        d => `translate(0,${yScale(d.materia)})`)
+                    .selectAll("rect")
+                    .data(d => d.votos)
+                    .join("rect")
+                    .attr('class', 'bar')
+                    .attr("x", xScale(0))
+                    .attr("y", (d) => innerYScale(d.anio))
+                    .attr("width", (d) => xScale(d.votos))
+                    .attr("height", innerYScale.bandwidth() )
+                    .attr("fill", d => color(d.anio))
+                    .on('mouseenter', function (d) {
+                        d3.select(this).attr('fill', d3.rgb(color(d.anio)).darker());
+                        tooltip
+                            .style("opacity", 1)
+                            .html(getTooltipContent(d));
+                    })
+                    .on('mouseleave', function (d) {
+                        d3.select(this).attr('fill', color(d.anio))
+                        tooltip
+                            .style("opacity", 0);
+                    });
+
+                let legend = svg.append("g")
+                        .attr("transform", `translate(${width},0)`)
+                        .attr("text-anchor", "end")
+                        .attr("font-family", "sans-serif")
+                        .attr("font-size", 10)
+                    .selectAll("g")
+                    .data(color.domain())
+                    .join("g")
+                        .attr("transform", (d, i) => `translate(0,${i * 20})`);
+                legend.append("rect")
+                    .attr("x", -19)
+                    .attr("width", 19)
+                    .attr("height", 19)
+                    .attr("fill", color);
+                legend.append("text")
+                    .attr("x", -24)
+                    .attr("y", 9.5)
+                    .attr("dy", "0.35em")
+                    .text(d => d);
+                document.getElementById("grafico-comparativa").appendChild(tooltip.node());
+            }
+
+            Promise.all([
+                fetch('data/encuesta-2018.json'),
+                fetch('data/encuesta-2019.json'),
+                fetch('data/encuesta-2020.json'),
+                fetch('data/encuesta-2021.json')
+            ]).then(responses => Promise.all(responses.map(response => response.json())))
+            .then(dataArray => {
+                function promedio(votos) {
+                    return votos.reduce((acc, v) => acc + v.votos, 0) / votos.length;
+                }
+                let resultadosPorAnio = dataArray.map(function(data, index) {
+                    return {
+                        year: index + 2018,
+                        resultados: transformData(data)
+                    }
+                });
+                let dataPlana = Object.entries(resultadosPorAnio.reduce(function(acc, yearData) {
+                    let resultados = yearData.resultados;
+                    let anio = yearData.year;
+                    resultados.forEach(votosPorMateria => {
+                        let votos = votosPorMateria.votos;
+                        let materia = votosPorMateria.materia;
+                        function agregar(materia) {
+                            if (!acc[materia]) acc[materia] = [];
+                            acc[materia].push({
+                                anio,
+                                votos
+                            });
+                        }
+                        // Esta dos materias estuvieron algunos años juntas y otros separadas
+                        // Las separo para graficar
+                        if (materia === "Algoritmos y Estructuras de Datos Avanzadas/Problemas de Grafos y Tratabilidad Computacional") {
+                            agregar("Algoritmos y Estructuras de Datos Avanzadas");
+                            agregar("Problemas de Grafos y Tratabilidad Computacional");
+                        } else {
+                            agregar(materia);
+                        }
+                    });
+                    return acc;
+                }, {}))
+                    .map(entrie => {return {materia: entrie[0], votos: entrie[1]}})
+                    .sort((d1, d2) => promedio(d2.votos) - promedio(d1.votos));
+
+                graficoDeBarras(dataPlana);
+            });
+            
+        </script>
+    </body>
+</html>

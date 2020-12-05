@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8">
+        <title>Resumen de resultados - 2020</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="resumen-anual.js"></script>
+        <style>
+            body { background-color: #b4d9d0; font-family:courier,arial,helvetica; }
+            h1 {font-size: 42px}
+            h2 {font-size: 22px}
+            .card {
+                background-color: #FFF;
+                margin: 40px 0px;
+                padding: 5px 20px;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+            }
+            .container {
+                max-width: 1080px;
+                margin:auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Resultados de encuesta optativas</h1>
+            <p>
+                Esta página muestra los resultados completos de las encuestas
+                de materias optativas votadas por estudiantes para el DC.
+                Los datos están accesibles en JSON en el directorio 'data/',
+                con los nombres 'encuesta-20{18,19,20,21}.json'.
+            </p>
+            <p>
+                Para ver la comparación de una misma materia a través del tiempo,
+                <a href="./comparativa.html">hacer clic acá.</a>
+            </p>
+            <div class="card">
+                <h2>Resultados de encuesta optativas 2021</h2>
+                <p>
+                    El siguiente gráfico muestra la cantidad de votos por cada materia.
+                    Las materias listadas son todas las que recibieron votos.
+                </p>
+                <p>Cantidad de votos: <span id="votos-2021"></span></p>
+                <div id="grafico-2021"></div>
+            </div>
+
+            <h1>Resultados de años anteriores</h1>
+            
+            <div class="card">
+                <h2>Resultados 2020</h2>
+                <p>Cantidad de votos: <span id="votos-2020"></span></p>
+                <div id="grafico-2020"></div>
+            </div>
+
+            <div class="card">
+                <h2>Resultados 2019</h2>
+                <p>Cantidad de votos: <span id="votos-2019"></span></p>
+                <div id="grafico-2019"></div>
+            </div>
+
+            <div class="card">
+                <h2>Resultados 2018</h2>
+                <p>Cantidad de votos: <span id="votos-2018"></span></p>
+                <div id="grafico-2018"></div>
+            </div>
+        </div>
+        <script>
+            // set the dimensions and margins of the graph
+            var margin = {top: 40, right: 40, bottom: 40, left: 400},
+                width = 960 - margin.left - margin.right,
+                height = 900 - margin.top - margin.bottom;
+
+            // Parse the Data
+            for(let year = 2021; year >= 2018; year--) {
+                d3.json('data/encuesta-'+year+'.json', (data) => {
+                    document.getElementById('votos-'+year).textContent = data.length;
+                    graficarVotosPorMateria(
+                        crearSVGEnDiv('#grafico-'+year),
+                        data);
+                });
+            }
+        </script>
+    </body>
+</html>
